@@ -52,7 +52,7 @@ export const updateImagesNameAndPath = (args: {
   }
 };
 
-export async function updateImageNameAndPath(args: {
+async function updateImageNameAndPath(args: {
   currentImageRefId: string;
   documentLinkToId: string;
   newFileNamePrefix: string;
@@ -73,7 +73,7 @@ export async function updateImageNameAndPath(args: {
   });
 }
 
-export async function updateUploadFile(args: {
+async function updateUploadFile(args: {
   rootImage: any;
   newFileNamePrefix: string;
   newFileNameSuffix: string;
