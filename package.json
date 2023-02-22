@@ -1,0 +1,35 @@
+{
+  "name": "@payloadcms/image-linker",
+  "version": "0.0.1",
+  "homepage:": "https://payloadcms.com",
+  "repository": "git@github.com:Ryeori/plugin-image-linker.git",
+  "description": "Plugin to rename media files to match product when its linked to it",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "payload",
+    "cms",
+    "plugin",
+    "typescript",
+    "react",
+    "image",
+    "link",
+    "upload"
+  ],
+  "author": "daniqshu@gmail.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "payload": "^0.18.5 || ^1.0.0"
+  },
+  "devDependencies": {
+    "payload": "^1.0.9",
+    "typescript": "^4.5.5"
+  },
+  "files": [
+    "src"
+  ]
+}
