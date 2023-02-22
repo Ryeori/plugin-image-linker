@@ -6,6 +6,7 @@
     "url": "git+https://github.com/Ryeori/plugin-image-linker.git",
     "type": "git"
   },
+  "type": "module",
   "description": "Plugin to rename media files to match product when its linked to it",
   "keywords": [
     "payload",
