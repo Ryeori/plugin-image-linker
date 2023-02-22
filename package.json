@@ -1,15 +1,12 @@
 {
-  "name": "@payloadcms/image-linker",
+  "name": "@ryeori/image-linker",
   "version": "0.0.1",
   "homepage:": "https://payloadcms.com",
-  "repository": "git@github.com:Ryeori/plugin-image-linker.git",
-  "description": "Plugin to rename media files to match product when its linked to it",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "url": "git+https://github.com/Ryeori/plugin-image-linker.git",
+    "type": "git"
   },
+  "description": "Plugin to rename media files to match product when its linked to it",
   "keywords": [
     "payload",
     "cms",
@@ -31,5 +28,16 @@
   },
   "files": [
     "src"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/Ryeori/plugin-image-linker/issues"
+  },
+  "homepage": "https://github.com/Ryeori/plugin-image-linker#readme",
+  "main": "./src/image_name_update_hook.ts",
+  "dependencies": {
+    "payload": "^0.18.5 || ^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
