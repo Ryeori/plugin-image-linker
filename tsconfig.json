@@ -11,6 +11,9 @@
         "declarationDir": "./dist",
         "skipLibCheck": true,
         "strict": true,
+        "lib": [
+            "es2015"
+        ]
     },
     "include": [
         "src/**/*",
