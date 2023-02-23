@@ -19,3 +19,5 @@ export const imageLinker =
       },
     };
   };
+
+export { updateImagesNameAndPath } from "./functions";
